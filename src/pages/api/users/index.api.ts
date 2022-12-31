@@ -12,6 +12,16 @@ export default async function handler(
 
   const { name, username } = req.body
 
+  const userExists = await prisma.user.findUnique({
+    where: {
+      username,
+    },
+  })
+
+  if (userExists) {
+    return res.status(409).json({ message: 'User already exists' })
+  }
+
   const user = await prisma.user.create({
     data: {
       name,
