@@ -59,7 +59,7 @@ export const TimePickerList = styled('div', {
 export const TimePickerItem = styled('button', {
   border: 0,
   backgroundColor: '$gray600',
-  padding: '$2 0',
+  padding: '$4 0',
   cursor: 'pointer',
   color: '$gray100',
   borderRadius: '$sm',
