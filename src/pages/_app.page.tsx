@@ -19,7 +19,7 @@ export default function App({
           openGraph={{
             type: 'website',
             locale: 'pt_BR',
-            url: 'https://ignite-call.vitorfranco.com.br/',
+            url: '__TODO__ADD__URL',
             siteName: 'Ignite Call',
           }}
         />
