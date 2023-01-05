@@ -6,3 +6,5 @@ npm run lint -- --fix
 2. OAuth -> Uma aplicação concede acesso ao usuário da aplicação dela, para que ele possa acessar os dados da aplicação que ele está usando. Exemplo: O usuário do facebook está logado no facebook, e ele quer acessar o instagram, ele vai dar permissão para o instagram acessar os dados dele no facebook. O instagram vai ter acesso aos dados do usuário do facebook, mas o facebook não vai ter acesso aos dados do usuário do instagram.
 
 3. Utilizamos PlanetScale para hospedar o banco de dados.
+
+4. FrontEnd na Vercel
